@@ -10,9 +10,14 @@ body{
 a {
     color: white;
 }
-h5 {
-    display: inline;
+.all {
+    display: flex;
+    gap: 5px;
     color: azure;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 #Home {
     margin-left: 10%;
